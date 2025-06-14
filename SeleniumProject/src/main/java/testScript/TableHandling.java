@@ -48,8 +48,6 @@ public class TableHandling extends Base{
 			
 		}
 		
-		
-		
 	}
 
 	public static void main(String[] args) {

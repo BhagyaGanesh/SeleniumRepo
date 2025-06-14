@@ -30,7 +30,7 @@ public class AlertHandling extends Base{
 		WebElement prompt1 = driver.findElement(By.xpath("//button[@onclick='jsPrompt()']"));
 		prompt1.click();
 		driver.switchTo().alert().sendKeys("Name");
-		
+		driver.switchTo().alert().accept();
 	}
 
 	public static void main(String[] args) {
